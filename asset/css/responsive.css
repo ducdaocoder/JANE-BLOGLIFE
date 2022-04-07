@@ -1,0 +1,50 @@
+/* BREAK POINT */
+
+/* PC */
+@media (min-width:1024px) {
+  
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px) {
+    
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        padding: 0;
+    }
+
+    .text {
+        margin-top: -42%;
+    }
+
+    #content {
+        padding: 0;
+    }
+   
+}
+
+/* Mobile */
+@media (max-width:740px) {
+
+    .left, .right {
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        padding: 0;
+    }
+
+    .text {
+        margin-top: -42%;
+    }
+
+    #content {
+        padding: 0;
+    }
+   
+}

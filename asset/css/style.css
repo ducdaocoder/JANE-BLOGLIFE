@@ -1,0 +1,417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --black:#000;
+    --white:#fff;
+    --ccc:#ccc;
+    --f1f1f1:#f1f1f1;
+}
+
+#header {
+    height: 38px;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon i,.icon-search i {
+    color: var(--white);
+    padding: 10px 16px;
+}
+
+.icon i:hover,.icon-search i:hover {
+    background-color: var(--ccc);
+    color:#000;
+}
+
+.heading {
+    text-align: center;
+    padding: 48px 16px;
+    background-color: var(--white);
+}
+
+.heading h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.heading h6 {
+    font-size: 16px;
+}
+
+.heading h6 span {
+    padding: 5px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#slider {
+    background: url(../img/jane\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    padding-top: 65%;
+    overflow: hidden;
+}
+
+.text {
+    color: var(--white);
+    margin-top: -38%;
+    margin-left: 3%;
+}
+
+.text h1 {
+    font-size: 36px;
+}
+
+.text b {
+    font-size: 64px;
+    display: block;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: var(--white);
+    opacity: 0.60;
+}
+
+button:hover {
+    background-color: var(--ccc);
+}
+
+button a {
+    color: var(--black);
+    font-size: 18px;
+}
+
+#content {
+    background-color: var(--f1f1f1);
+    padding: 40px;
+    overflow: hidden;
+}
+
+.left {
+    width: 66.66666%;
+    float: left;
+    overflow: hidden;
+}
+
+.l1 {
+    background-color: var(--white);
+    padding: 20px 30px;
+}
+
+.l1 h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.l1 h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.l1 h3 span {
+    opacity: 0.60;
+}
+
+.flex {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--ccc);
+}
+
+.flex .a {
+    padding: 8px 16px;
+    border: 1px solid var(--ccc);
+    color: var(--black);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.a i {
+    font-size: 17px;
+    color:var(--black);
+    padding: 0 5px;
+}
+
+.a:hover, footer:hover {
+    background-color: var(--ccc);
+}
+
+footer:hover a {
+    color: var(--black);
+}
+
+.text-about  {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.pxp  {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+footer {
+    padding: 8px 16px;
+    background-color: var(--black);
+}
+
+footer a {
+    color: var(--white);
+}
+
+footer span {
+    background-color: var(--white);
+    padding: 4px 6px;
+    font-size: 15px;
+    color: var(--black);
+    margin-left: 6px;
+}
+
+.block {
+    margin: 30px 0;
+    display: flex;
+}
+
+.block img {
+    width: 90px;
+}
+
+.txt {
+    margin-left: 15px;
+}
+
+.txt h3 {
+    font-size: 20px;
+}
+
+.txt p {
+    font-size: 15px;
+}
+
+/* l2 */
+.l2 {
+    margin: 40px 0;
+}
+
+.right {
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+.r1 img {
+    display: block;
+}
+
+.bck {
+    background-color: var(--black);
+    padding: 20px 20px;
+    color: var(--white);
+}
+
+.bck h4 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.bck {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* r2 */
+
+.r2 {
+    background-color: var(--white);
+    margin: 40px 0;
+}
+
+.heading-text {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.next {
+    padding: 20px;
+    display: flex;
+    border-bottom:1px solid var(--ccc) ;
+}
+
+.next:hover {
+    background-color: var(--ccc);
+}
+
+.next img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.span {
+    padding-top: 10px;
+}
+
+.span p {
+    font-size: 18px;
+}
+
+.span span {
+    font-size: 15px;
+}
+
+/* r3 */
+.r3 {
+    background-color: var(--white);
+    overflow: hidden;
+}
+.background p {
+    text-align: center;
+    line-height: 200px;
+}
+
+.background {
+    background-color: var(--f1f1f1);
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.background:hover {
+   background-color:#ccc;
+}
+
+/* r4 */
+.r4,.r5, .r6, .r7 {
+    margin: 45px 0px;
+    background-color: var(--white);
+    overflow: hidden;
+}
+
+.all-b {
+    padding: 20px;
+}
+
+.app {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 3px 5px;
+    font-size: 15px;
+}
+
+.nav {
+    padding: 2px 4px;
+    background-color:var(--f1f1f1);
+    margin-right: 5px;
+    font-size: 15px;
+    line-height: 2.6;
+}
+
+/* r5 */
+.btn {
+    overflow: hidden;
+    padding: 8px 8px;
+}
+
+.all-img img {
+    float: left;
+    width: calc(100%/2);
+    overflow: hidden;
+    padding: 0px 8px;
+}
+
+/* r6 */
+.icon-btn {
+    padding: 20px;
+}
+
+.icon-btn a:hover {
+    color: var(--ccc);
+}
+
+.icon-btn a {
+    color: var(--black);
+    font-size: 24px;
+    margin-right: 4px;
+}
+
+/* r7 */
+
+.text-btn {
+    padding: 20px ;
+}
+
+.text-btn p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.text-btn input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+
+.text-btn input::placeholder {
+    font-size: 15px;
+}
+
+.input-submit {
+    background-color: #F44336;
+    border: navajowhite;
+    color: var(--white);
+    font-size: 16px;
+}
+
+#footer {
+    background-color: #616161;
+    height: 150px;
+}
+
+.main {
+    padding: 40px 35px;
+}
+
+.a-btn {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 15px 30px;
+}
+
+.adress  {
+    padding: 0px 35px;
+    color: var(--white);
+}
+
+.adress a {
+    color: var(--white);
+}
